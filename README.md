@@ -9,18 +9,26 @@ This project analyzes employee email sentiment data from the Enron dataset using
 - Identify flight risk employees based on negative sentiment patterns
 - Generate visualizations and reports
 
-## 📁 Project StructureEmployee_Sentiment_Analysis/
-├── test.xlsx                          # Input data (Enron emails)
-├── sentiment_analysis.py              # Main analysis script
-├── visualizations/                    # Generated charts
+## 📁 Project Structure
+```
+Employee_Sentiment_Analysis/
+│
+├── 📄 test.xlsx                          # Input data (Enron emails)
+├── 🐍 sentiment_analysis.py              # Main analysis script
+│
+├── 📊 visualizations/                    # Generated charts
 │   ├── sentiment_overview.png
 │   ├── flight_risk_analysis.png
 │   └── negative_wordcloud.png
-└── outputs/                           # Analysis results
-├── full_sentiment_analysis.csv
-├── monthly_sentiment_scores.csv
-├── flight_risk_employees.csv
-└── summary_statistics.csv
+│
+└── 📂 outputs/                           # Analysis results
+    ├── full_sentiment_analysis.csv
+    ├── monthly_sentiment_scores.csv
+    ├── flight_risk_employees.csv
+    └── summary_statistics.csv
+```
+
+## 🔍 Key Findings
 
 ## 🔍 Key Findings
 - **Total Emails Analyzed**: 2,191
