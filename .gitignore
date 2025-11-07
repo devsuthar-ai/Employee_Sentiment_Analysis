@@ -1,0 +1,26 @@
+# Data files
+test.xlsx
+*.xlsx
+*.xls
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Outputs (optional - agar upload nahi karni to uncomment)
+# outputs/
